@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: #353A42;
+    background-image: url("/images/ingredients-1920w.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-blend-mode:multiply;
+    background-size: cover;
+    width: 100vw;
+    color: white;
+    font-family: 'Lobster';
+}
+header h4{
+    background-color: #ffbc48;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 8px 15px;
+    padding: 5px;
+}
+header h2{
+    display: block;
+    font-size: 5.4em;
+    padding: 8px 15px;
+}
+header .desc_p{
+    font-size: 1.8em;
+    margin: 8px 15px;
+    color: inherit;
+}
+.dec_word{
+    font-weight: 800;
+    text-decoration: underline;
+    color:#ffbc48;
+}
+header .desc_points{
+    background-color: #353a4200;
+    margin: 20px 0px 0px 15px;
+}
+.desc_points ul{
+    list-style-type: none;
+}
+.desc_points ul li{
+    margin-top: 8px;
+    margin-right: 120px;
+    padding: 10px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.desc_vals{
+    background-color: #ffbc48;
+    color: black;
+    padding: 2px;
+    margin-top: 3px;   
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: #353A42;
+    width: 100vw;
+    font-family:'Reggae One';
+}
+nav ul{
+    margin-left: 15px;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+nav ul li{
+    padding: 0px 0px 10px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffbc48;
+}
+nav ul li a:hover{
+    color: #b48637;
+}
+.main_content{
+    width: 100vw;
+    font-family: 'kalam';
+}
+.main_content h3{
+    color:rgb(0, 0, 0);
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+.main_content p{
+    color:rgb(0, 0, 0);
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+.banner{
+    border-left: 5px solid #ffbc48;
+    font-style: italic;
+    padding-left: 50px;
+}
+.main_content .image img{
+    height: auto;
+    width: 100%;
+}
+.imagecontainer{
+    position: relative;
+    width: 85%;
+    height: auto;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+    margin: 20px 15px;
+    z-index: -1;
+}
+#ingredients, #equipment{
+    margin-top: 30px;
+}
+#ingredients ul, #equipment ul{
+    list-style-type: circle;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+#ingredients ul li, #equipment ul li{
+    padding: 3px 5px;
+}
+@media only screen and (max-width: 700px){
+    .imagecontainer{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .imagecontainer{
+        width: 100%;
+    }
+}
