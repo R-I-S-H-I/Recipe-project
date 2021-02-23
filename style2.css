@@ -9,7 +9,7 @@
 }
 header{
     background-color: #353A42;
-    background-image: url("https://github.com/R-I-S-H-I/Recipe-project/blob/main/images/ingredients-1920w.jpg");
+    background-image: url("../images/ingredients-1920w.jpg");
     background-position: top;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
