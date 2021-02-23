@@ -124,7 +124,7 @@ nav ul li a:hover{
     margin: 20px 15px;
     z-index: -1;
 }
-#ingredients, #equipment{
+#ingredients, #equipment, #process{
     margin-top: 30px;
 }
 #ingredients ul, #equipment ul{
@@ -132,8 +132,17 @@ nav ul li a:hover{
     margin-left: 15px;
     font-size: 1.1em;
 }
-#ingredients ul li, #equipment ul li{
+#ingredients ul li, #equipment ul li, #process ol li{
     padding: 3px 5px;
+}
+#process ol{
+    list-style-type:decimal;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+#process ol li h4{
+    font-weight: 900;
+    font-size: 1.3em;
 }
 @media only screen and (max-width: 700px){
     .imagecontainer{
