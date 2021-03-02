@@ -62,8 +62,6 @@ header .desc_points{
     margin-top: 3px;   
 }
 nav{
-    position: sticky;
-    top: 0px;
     background-color: #353A42;
     width: 100vw;
     font-family:'Reggae One';
